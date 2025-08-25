@@ -118,6 +118,76 @@ focus = {
             add_war_support = 0.10
         }
     }
+    focus = {
+        id = TNO_PMO_The_Motherlands_Open_Wound
+        icon = GFX_goal_generic_social_reform
+        x = 8
+        y = 7.5
+        prerequisite = { focus = TNO_PMO_Purity_Of_Russians }
+        completion_reward = {
+            # Reduce salted earth idea effect
+        }
+    }
+    focus = {
+        id = TNO_PMO_The_Clock_Shattered
+        icon = GFX_goal_generic_social_reform
+        x = 8
+        y = 8.9
+        prerequisite = { focus = TNO_PMO_The_Motherlands_Open_Wound }
+        completion_reward = {
+            # Reduce salted earth idea effect
+        }
+    }
+    focus = {
+        id = TNO_PMO_Root_Out_Taboritskys_Madness
+        icon = GFX_goal_generic_social_reform
+        X = 8
+        Y = 10
+        prerequisite = { focus = TNO_PMO_The_Clock_Shattered }
+        completion_reward = {
+            # Reduce salted earth idea effect
+        }
+    }
+    focus = {
+        id = TNO_PMO_Cruelty_of_the_Spetsgruppa
+        icon = GFX_goal_generic_military_reform
+        x = 5
+        y = 7.5
+        prerequisite = { focus = TNO_PMO_Russias_Pride}
+        completion_reward = {
+            add_ideas = { TMO_Spetsgruppa_V}
+        }
+    }
+    focus = {
+        id = TNO_PMO_Reform_the_Redemptionary_Brigades
+        icon = GFX_goal_generic_military_reform
+        x = 5
+        y = 8.9
+        prerequisite = { focus = TNO_PMO_Cruelty_of_the_Spetsgruppa }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = TNO_PMO_The_Proud_Russian_Army
+        icon = GFX_goal_generic_political_reform
+        x = 4
+        y = 10.8
+        prerequisite = {
+            TNO_PMO_Crush_Nenets_Dream_Of_Freedom
+            TNO_PMO_Reform_the_Redemptionary_Brigades
+        }
+    }
+    focus = {
+        id = TNO_PMO_Reorganize_the_League
+        icon = GFX_goal_generic_political_reform
+        x = 6
+        y = 12
+        prerequisite = {
+            TNO_PMO_The_Proud_Russian_Army
+            TNO_PMO_Root_Out_Taboritskys_Madness
+        }
+    }
 }
 
 
