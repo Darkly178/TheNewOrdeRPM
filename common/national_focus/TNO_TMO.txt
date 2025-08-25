@@ -10,7 +10,7 @@ focus_tree = {
 
     focus = {
         id = TMO_Rising_From_The_Ashes
-        icon = GFX_goal_generic_political_reform
+        icon = Rising_From_The_ashes.tga
         x = 6
         y = 0
         cost = 5
@@ -21,7 +21,7 @@ focus_tree = {
     }
 focus = {
     id = TMO_The_Imperial_Airborne_Brigades
-    icon = GFX_goal_generic_military_reform
+    icon = The_Imperial_Airborne_Brigades.tga
     x = 6
     y = 2
     cost = 5
@@ -35,7 +35,7 @@ focus = {
 
     focus = {
         id = TNO_PMO_Prepare_For_The_Inevitable
-        icon = GFX_goal_generic_military_reform
+        icon = Prepare_For_The_Inevitable.tga
         x = 4
         y = 4
         cost = 5
@@ -201,9 +201,6 @@ focus = {
             # Switch focus tree
         }
     }
-}
-
-
     focus = {
         id = TNO_PMO_The_Motherlands_Open_Wound
         icon = GFX_goal_generic_social_reform

@@ -1,6 +1,21 @@
 spriteTypes = {
-    {
+    spriteType ={
         name = "TMO_militarized_villages_program"
         TextureFile = "gfx/interface/goals/TMO_militarized_villages_program.dds"
+    }
+
+    spriteType = {
+        name = "TMO_Rising_From_The_Ashes"
+        TextureFile = "gfx/interface/ideas/Rising_From_The_Ashes.tga"
+    }
+
+    spriteType = {
+        name = "TMO_The_Imperial_Airborne_Brigades"
+        TextureFile = "gfx/interface/ideas/The_Imperial_Airborne_Brigades.tga"
+    }
+
+    spriteType = {
+        name = "TNO_PMO_Prepare_For_The_Inevitable"
+        TextureFile = "gfx/interface/ideas/Prepare_For_The_Inevitable.tga"
     }
 }
