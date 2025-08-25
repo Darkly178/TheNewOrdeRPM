@@ -1,0 +1,6 @@
+spriteTypes = {
+    {
+        name = "TMO_militarized_villages_program"
+        TextureFile = "gfx/interface/goals/TMO_militarized_villages_program.dds"
+    }
+}

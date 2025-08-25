@@ -1,8 +1,7 @@
 ideas = {
     country = {
         TMO_militarized_villages_program = {
-            picture = generic_pp_unity_bonus
-
+            picture = TMO_militarized_villages_program.dds
             modifier = {
                 army_experience_gain = 0.20
                 recruitable_population_factor = 0.025
