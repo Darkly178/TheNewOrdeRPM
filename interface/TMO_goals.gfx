@@ -1,7 +1,7 @@
 spriteTypes = {
     spriteType ={
         name = "TMO_militarized_villages_program"
-        TextureFile = "gfx/interface/goals/TMO_militarized_villages_program.dds"
+        TextureFile = "gfx/interface/ideas/TMO/TMO_militarized_villages_program.dds"
     }
 
     spriteType = {

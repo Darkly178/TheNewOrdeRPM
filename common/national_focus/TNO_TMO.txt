@@ -27,7 +27,8 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = TMO_Rising_From_The_Ashes }
         completion_reward = {
-            add_ideas = { TMO_militarized_villages_program = yes }
+            add_ideas = { TMO_militarized_villages_program = yes         }
+
             add_war_support = 0.05
             add_stability = -0.05
         }

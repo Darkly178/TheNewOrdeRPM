@@ -3,8 +3,8 @@ ideas = {
         TMO_militarized_villages_program = {
             picture = TMO_militarized_villages_program.dds
             modifier = {
-                army_experience_gain = 0.20
-                recruitable_population_factor = 0.025
+                experience_gain_army = 0.10
+                conscription  = 0.025
             }
         }
     }
