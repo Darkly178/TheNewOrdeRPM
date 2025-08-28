@@ -10,7 +10,7 @@ focus_tree = {
 
     focus = {
         id = TMO_Rising_From_The_Ashes
-        icon = GFX_goal_generic_political_reform
+        icon = GFX_Rising_From_The_ashes.tga
         x = 6
         y = 0
         cost = 5
@@ -81,7 +81,7 @@ focus_tree = {
         }
     }
     focus = {
-        Id = TNO_PMO_The_AntiChrist_At_Our_DoorStep
+        id = TNO_PMO_The_AntiChrist_At_Our_DoorStep
         icon = GFX_goal_generic_industry
         x = 3
         y = 6
@@ -123,7 +123,7 @@ focus_tree = {
         id = TNO_PMO_The_Motherlands_Open_Wound
         icon = GFX_goal_generic_social_reform
         x = 8
-        y = 7.5
+        y = 6
         cost = 2
         prerequisite = { focus = TNO_PMO_Purity_Of_Russians }
         completion_reward = {
@@ -134,7 +134,7 @@ focus_tree = {
         id = TNO_PMO_The_Clock_Shattered
         icon = GFX_goal_generic_social_reform
         x = 8
-        y = 8.9
+        y = 7.5
         cost = 2
         prerequisite = { focus = TNO_PMO_The_Motherlands_Open_Wound }
         completion_reward = {
@@ -145,7 +145,7 @@ focus_tree = {
         id = TNO_PMO_Root_Out_Taboritskys_Madness
         icon = GFX_goal_generic_social_reform
         x = 8
-        y = 10
+        y = 8.9
         cost = 2
         prerequisite = { focus = TNO_PMO_The_Clock_Shattered }
         completion_reward = {
