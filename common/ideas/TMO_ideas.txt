@@ -7,5 +7,8 @@ ideas = {
                 conscription  = 0.025
             }
         }
+        TMO_Spetsgruppa_V = {
+            # algo
+        }
     }
 }
