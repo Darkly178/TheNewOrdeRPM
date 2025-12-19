@@ -1,0 +1,134 @@
+shared_focus = {
+	id = TMO_Rising_From_The_Ashes
+        icon = GFX_Rising_From_The_ashes.tga
+        x = 6
+        y = 0
+        cost = 5
+        completion_reward = {
+            add_political_power = 40
+            add_stability = 0.10
+        }
+    }
+
+
+shared_focus = {
+	id = TMO_The_Imperial_Airborne_Brigades
+	icon = GFX_goal_generic_military_deal
+        x = 6
+        y = 2
+        cost = 5
+        prerequisite = { focus = TMO_Rising_From_The_Ashes }
+        completion_reward = {
+            add_ideas = { TMO_militarized_villages_program = yes }
+            add_war_support = 0.05
+            add_stability = -0.05
+        }
+ }
+
+shared_focus = {
+	id = TNO_PMO_Prepare_For_The_Inevitable
+	icon = GFX_goal_generic_military_deal
+	x = 4
+	y = 4
+    cost = 5
+    prerequisite = { focus = TMO_The_Imperial_Airborne_Brigades}
+    completion_reward = {
+        add_building_construction = {
+            type = bunker
+            level = 3
+            province = 1387
+            province = 1821
+            instant_build = yes
+        }
+    }
+}
+
+shared_focus = {
+    id = TMO_PMO_Purity_Of_Russians
+    icon = GFX_goal_generic_military_sphere
+    x = 8
+    y = 4
+    cost = 5
+    prerequisite = { focus = TMO_The_Imperial_Airborne_Brigades }
+    completion_reward = {
+        add_ideas = { TMO_militarized_villages_program = yes }
+        add_political_power = 50
+        add_stability = 0.05
+        monthly_pop_growth = -0.10
+    }
+}
+
+shared_focus = {
+    id = TMO_PMO_Russias_Pride
+    icon = GFX_goal_generic_military_sphere
+    x = 5
+    y = 6
+    cost = 2
+    prerequisite = { focus = TNO_PMO_Prepare_For_The_Inevitable }
+    completion_reward = {
+        add_political_power = 50
+        add_stability = 0.10
+    }
+}
+
+shared_focus = {
+    id = TMO_PMO_The_AntiChrist_At_Our_DoorStep
+    icon = GFX_goal_generic_military_sphere
+    x = 3
+    y = 6
+    cost = 5
+    prerequisite = { focus = TNO_PMO_Prepare_For_The_Inevitable }
+    completion_reward = {
+        add_political_power = 30
+        add_stability = 0.05
+        add_war_support = 0.10
+        add_building_construction ={
+            type = bunker
+            level = 1
+            province = border_province_with=#Chelyabinsk's Government
+        }
+    }
+}
+
+shared_focus = {
+    id = TMO_PMO_Chelyabinsk_Childish_Dream
+    icon = GFX_goal_generic_military_sphere
+    cost = 5
+    x = 3
+    y = 8
+    prerequisite = { focus = TNO_PMO_The_AntiChrist_At_Our_DoorStep }
+    completion_reward ={
+        add_political_power = 70
+        add_stability = -0.10
+    }
+}
+
+shared_focus = {
+    id = TMO_PMO_Crush_Nenets_Dream_Of_Freedom
+    icon = GFX_goal_generic_military_sphere
+    x = 3
+    y = 8.9
+    cost = 4
+    prerequisite = { focus = TNO_PMO_Chelyabinsk_Childish_Dream }
+    completion_reward = {
+        add_political_power = -25
+        add_building_construction = {
+            type = bunker
+            level = 1
+            province = border_province_with=#Nenet
+        }
+    }
+}
+
+shared_focus = {
+    id = TNO_PMO_The_Motherlands_Open_Wound
+    icon = GFX_goal_generic_social_reform
+    x = 8
+    y = 6
+    cost = 2
+    prerequisite = { focus = TNO_PMO_Purity_Of_Russians }
+    completion_reward = {
+        add_political_power = -10
+        #Reduce salted earth effect
+    }
+}

@@ -1,5 +1,5 @@
 focus_tree = {
-    id = TMO_focus_tree
+    id = TMO_initial_securing_power_tree
     country = {
         base = 0
         modifier = {
@@ -7,67 +7,10 @@ focus_tree = {
             tag = TMO
         }
     }
+    default = no
+    shared_focus = TMO_Rising_From_The_Ashes
 
-    focus = {
-        id = TMO_Rising_From_The_Ashes
-        icon = GFX_Rising_From_The_ashes.tga
-        x = 6
-        y = 0
-        cost = 5
-        completion_reward = {
-            add_political_power = 40
-            add_stability = 0.10
-        }
-    }
-    focus = {
-        id = TMO_The_Imperial_Airborne_Brigades
-        icon = GFX_goal_generic_military_reform
-        x = 6
-        y = 2
-        cost = 5
-        prerequisite = { focus = TMO_Rising_From_The_Ashes }
-        completion_reward = {
-            add_ideas = { TMO_militarized_villages_program = yes }
-            add_war_support = 0.05
-            add_stability = -0.05
-        }
-    }
 
-    focus = {
-        id = TNO_PMO_Prepare_For_The_Inevitable
-        icon = GFX_goal_generic_military_reform
-        x = 4
-        y = 4
-        cost = 5
-        prerequisite = { focus = TMO_The_Imperial_Airborne_Brigades }
-        completion_reward = {
-            add_building_construction = {
-                type = bunker
-                level = 3
-                province = 1387
-                province = 1821
-                instant_build = yes
-            }
-            add_building_construction = {
-                type = bunker
-                level = 2
-                province = 1387
-                province = 1821
-            }
-        }
-    }
-    focus = {
-        id = TNO_PMO_Purity_Of_Russians
-        icon = GFX_goal_generic_political_reform
-        x = 8
-        y = 4
-        cost = 5
-        prerequisite = { focus = TMO_The_Imperial_Airborne_Brigades }
-        completion_reward = {
-            add_political_power = 50
-            add_stability = 0.05
-        }
-    }
     focus = {
         id = TNO_PMO_Russias_Pride
         icon = GFX_goal_generic_social_reform
@@ -160,7 +103,7 @@ focus_tree = {
         cost = 5
         prerequisite = { focus = TNO_PMO_Russias_Pride }
         completion_reward = {
-            add_ideas = { TMO_Spetsgruppa_V }
+            add_ideas = { ideas = TMO_Spetsgruppa_V }
         }
     }
     focus = {
