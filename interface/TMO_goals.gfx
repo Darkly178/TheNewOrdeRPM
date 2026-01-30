@@ -1,11 +1,7 @@
 spriteTypes = {
     spriteType ={
         name = "TMO_militarized_villages_program"
-<<<<<<< HEAD
-        TextureFile = "gfx/interface/ideas/TMO/TMO_militarized_villages_program.dds"
-=======
         TextureFile = "gfx/interface/ideas/TMO_militarized_villages_program.dds"
->>>>>>> 209886520a973eb9ce4d171ab08d376c7011d433
     }
 
     spriteType = {

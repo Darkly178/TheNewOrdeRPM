@@ -1,4 +1,4 @@
-version="1.6.0b"
+version="0.0.1a
 dependencies= {
     "TNO: Requiem"
 }
@@ -11,4 +11,4 @@ tags={
 	"National Focuses"
 }
 name="The New Order: Post-Midnight"
-supported_version="1.16.9"
+supported_version="1.17.*"
